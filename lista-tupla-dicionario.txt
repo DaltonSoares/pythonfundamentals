@@ -1,0 +1,42 @@
+LISTA 
+é flexível, sendo que o primeiro elemento de uma lista é referenciado pelo índice zero.
+Cada elemento pode ser de qualquer tipo porém é bom evitar. É interessante manter a lista com o mesmo tipo para todos os elementos.
+
+nomes = []
+nomes = ['Fabricio', 'Saulo', 'Dalton', 'Fernando']
+nomes[0]
+nomes[1]
+nomes[3]
+nomes[-1] - último elemento da lista
+nomes[-2] - penúltimo elemento da lista
+
+nomes
+
+Para iniciar uma lista vazia.
+ - lista1 = list()
+ - lista2 = []
+ 
+ 
+--------------------------------------------------------------------------------
+
+TUPLA
+Tupla é difernte de lista, ela NÃO é flexível, uma vez definido seus valores não é mais possível a sua alteração.
+Tupla é um objeto imutável. 
+
+tupla = ('Dalton', 'Augusto', 'Soares')
+
+--------------------------------------------------------------------------------
+
+DICIONÁRIO
+Dicionário armazena chave e valor.
+Ex: 
+Nome: Dalton
+Idade: 32
+Sexo: Masculino
+
+dicionario2 = {
+	'Nome': 'Dalton',
+	'Idade': 32,
+	'Sexo': 'Masculino'	 
+}
+
